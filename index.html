@@ -1,0 +1,974 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asmaa Adass — Frontend Developer &amp; UI/UX Designer</title>
+    <meta
+      name="description"
+      content="Asmaa Adass is a frontend developer and UI/UX designer with a business background, building responsive websites and interfaces for freelance clients and companies."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Markazi+Text:wght@500;600;700&family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a href="#top" class="logo">Asmaa Adass<span>.</span></a>
+
+        <nav class="navbar" id="navbar">
+          <a href="#work" data-label="01" data-i18n="nav.work">Work</a>
+          <a href="#services" data-label="02" data-i18n="nav.services"
+            >Services</a
+          >
+          <a href="#about" data-label="03" data-i18n="nav.about">About</a>
+          <a href="#experience" data-label="04" data-i18n="nav.experience"
+            >Experience</a
+          >
+          <a href="#contact" data-label="05" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <div
+            class="lang-switch"
+            id="langSwitch"
+            role="group"
+            aria-label="Language switch"
+          >
+            <button
+              type="button"
+              class="lang-btn active"
+              data-lang="en"
+              aria-pressed="true"
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              class="lang-btn"
+              data-lang="ar"
+              aria-pressed="false"
+            >
+              AR
+            </button>
+          </div>
+          <a
+            href="#contact"
+            class="btn btn-primary btn-header"
+            data-i18n="nav.cta"
+            >Let's Talk</a
+          >
+        </div>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <p class="eyebrow" data-i18n="hero.eyebrow">
+          / frontend developer &amp; ui-ux designer
+        </p>
+        <h1 class="hero-title">
+          <span data-i18n="hero.title.pre">I design and build</span>
+          <span class="hero-title-accent" data-i18n="hero.title.accent"
+            >digital products</span
+          >
+          <span data-i18n="hero.title.post">that businesses can trust.</span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero.sub">
+          I'm Asmaa Adass — a frontend developer and UI/UX designer with a
+          Business Administration background. I turn ideas into clean,
+          responsive websites and interfaces that are as functional as they are
+          good-looking, for founders, teams, and individual clients.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary" data-i18n="hero.cta.work"
+            >View My Work</a
+          >
+          <a href="#contact" class="btn btn-outline" data-i18n="hero.cta.start"
+            >Start a Project</a
+          >
+          <a href="Asmaa Adass.pdf" class="btn btn-ghost" download>
+            <i class="bx bx-download"></i>
+            <span data-i18n="hero.cta.resume">Resume</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">10+</span>
+            <span class="hero-meta-label" data-i18n="hero.meta.sites"
+              >Websites shipped</span
+            >
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">3</span>
+            <span class="hero-meta-label" data-i18n="hero.meta.ux"
+              >UI/UX case studies</span
+            >
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-num">SNHU</span>
+            <span class="hero-meta-label" data-i18n="hero.meta.business"
+              >Business Administration</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="hero-portrait-frame">
+          <img
+            src="WhatsApp Image 2025-02-15 at 14.32.03_1bdc673a.jpg"
+            alt="Portrait of Asmaa Adass"
+          />
+        </div>
+        <ul class="hero-socials">
+          <li>
+            <a
+              href="https://www.instagram.com/coding_mento/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/asmaa-adass-a798a435b/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/codingmento"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/@asmaa-coding"
+              target="_blank"
+              rel="noopener"
+              aria-label="YouTube"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT / VALUE PROP ============ -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="about.eyebrow">/ about</p>
+        <h2 class="section-title" data-i18n="about.title">
+          Design and business thinking, in one person.
+        </h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p data-i18n="about.p1">
+            Most developers build what they're told. I ask why first. Studying
+            Business Administration alongside frontend development means I
+            approach every project with the client's goals in mind, not just the
+            interface — whether that's converting more visitors, looking
+            credible to investors, or simply making a brand feel professional
+            online.
+          </p>
+          <p data-i18n="about.p2">
+            I work across the full picture: structuring the UX in Figma,
+            building it with clean HTML, CSS, JavaScript and React, and making
+            sure the result is fast, responsive, and easy to maintain long after
+            I hand it off.
+          </p>
+          <a href="#contact" class="text-link"
+            ><span data-i18n="about.link">Let's work together</span>
+            <i class="bx bx-right-arrow-alt"></i
+          ></a>
+        </div>
+
+        <ul class="about-pillars">
+          <li>
+            <span class="pillar-index">01</span>
+            <h3 data-i18n="about.pillar1.title">Business-aware design</h3>
+            <p data-i18n="about.pillar1.desc">
+              Every layout decision is tied to a goal — leads, sales, or
+              credibility — not decoration for its own sake.
+            </p>
+          </li>
+          <li>
+            <span class="pillar-index">02</span>
+            <h3 data-i18n="about.pillar2.title">End-to-end delivery</h3>
+            <p data-i18n="about.pillar2.desc">
+              From wireframes in Figma to a deployed, responsive site — one
+              person, one consistent vision.
+            </p>
+          </li>
+          <li>
+            <span class="pillar-index">03</span>
+            <h3 data-i18n="about.pillar3.title">Built to last</h3>
+            <p data-i18n="about.pillar3.desc">
+              Semantic, maintainable code that a future developer — or future
+              you — can actually work with.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="work.eyebrow">/ work</p>
+        <h2 class="section-title" data-i18n="work.title">Selected projects.</h2>
+        <p class="section-sub" data-i18n="work.sub">
+          A mix of freelance client sites, product builds, and personal
+          experiments — spanning e-commerce, portfolios, and interactive tools.
+        </p>
+      </div>
+
+      <div class="work-subhead">
+        <h3>
+          <span class="pillar-index">01</span>
+          <span data-i18n="work.web.heading">Web Development</span>
+        </h3>
+      </div>
+
+      <div class="project-grid" id="webGrid">
+        <article class="project-card featured">
+          <div class="project-media">
+            <img src="HO.png" alt="Honey Kingdom e-commerce website" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p1.title">Honey Kingdom</h4>
+              <span class="project-emoji" aria-hidden="true">🍯</span>
+            </div>
+            <p data-i18n="work.p1.desc">
+              A modern e-commerce site for a honey brand, built with a clean
+              shopping experience and a WhatsApp-based checkout flow.
+            </p>
+            <ul class="tech-tags">
+              <li>React</li>
+              <li>Vite</li>
+              <li>Tailwind CSS</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://honeykingdom.vercel.app"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/HONEYKINGDOM"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img
+              src="THE.png"
+              alt="The World books and gifts e-commerce website"
+            />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p2.title">The World</h4>
+              <span class="project-emoji" aria-hidden="true">📚</span>
+            </div>
+            <p data-i18n="work.p2.desc">
+              An elegant e-commerce website for books and gifts, focused on a
+              calm browsing experience.
+            </p>
+            <ul class="tech-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/The-World/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/The-World"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="coff.png" alt="Coffee shop landing page" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p3.title">Coffee Landing Page</h4>
+              <span class="project-emoji" aria-hidden="true">☕</span>
+            </div>
+            <p data-i18n="work.p3.desc">
+              A focused coffee shop landing page built to introduce a brand and
+              drive visitors to visit or order.
+            </p>
+            <ul class="tech-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/Majd/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/Majd"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card hidden-project">
+          <div class="project-media">
+            <img src="Blog.png" alt="Personal blog website" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p4.title">Blog Website</h4>
+              <span class="project-emoji" aria-hidden="true">📝</span>
+            </div>
+            <p data-i18n="work.p4.desc">
+              A personal blog built with a clean reading experience and simple
+              content structure.
+            </p>
+            <ul class="tech-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/Blog-codingmento/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/Blog-codingmento"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card hidden-project">
+          <div class="project-media">
+            <img src="ahed.png" alt="Ahed Al-Kahil personal website" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p5.title">Ahed Al-Kahil — Personal Site</h4>
+            </div>
+            <p data-i18n="work.p5.desc">
+              A responsive personal website designed and built to present a
+              client's profile and work clearly online.
+            </p>
+            <ul class="tech-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/Ahed-Al-Kahil/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/Ahed-Al-Kahil"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card hidden-project">
+          <div class="project-media">
+            <img src="hanin.png" alt="Engineering portfolio website" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p6.title">Engineering Portfolio</h4>
+              <span class="project-emoji" aria-hidden="true">⚙️</span>
+            </div>
+            <p data-i18n="work.p6.desc">
+              A personal portfolio built for an electronic engineering student,
+              keeping the layout simple and content-first.
+            </p>
+            <ul class="tech-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/Hanin-Al-Rawi/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/Hanin-Al-Rawi"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card hidden-project">
+          <div class="project-media">
+            <img src="aisha.png" alt="Client portfolio website" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p7.title">Client Portfolio Site</h4>
+            </div>
+            <p data-i18n="work.p7.desc">
+              A website developed for a client, focused on clean design,
+              responsive layout, and clear content presentation.
+            </p>
+            <ul class="tech-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/Aisha-Masri/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/Aisha-Masri"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card hidden-project">
+          <div class="project-media">
+            <img src="huda.png" alt="Frontend portfolio with dark UI" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p8.title">Frontend Portfolio</h4>
+              <span class="project-emoji" aria-hidden="true">💻</span>
+            </div>
+            <p data-i18n="work.p8.desc">
+              A responsive portfolio built to present a frontend developer’s
+              work, skills, and projects through a dark, developer-focused
+              interface.
+            </p>
+            <ul class="tech-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/Huda/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/Huda"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card hidden-project">
+          <div class="project-media">
+            <img src="1212.png" alt="Loan request form application" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p9.title">Loan Request App</h4>
+              <span class="project-emoji" aria-hidden="true">💸</span>
+            </div>
+            <p data-i18n="work.p9.desc">
+              A clean, functional loan request form with client-side validation
+              and a simple submission flow.
+            </p>
+            <ul class="tech-tags">
+              <li>React</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/Requesting-a-Loan/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/Requesting-a-Loan"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card hidden-project">
+          <div class="project-media">
+            <img src="6767.png" alt="To-do list application" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.p10.title">To-Do List App</h4>
+              <span class="project-emoji" aria-hidden="true">✅</span>
+            </div>
+            <p data-i18n="work.p10.desc">
+              An interactive task manager for organizing daily to-dos with a
+              fast, responsive interface.
+            </p>
+            <ul class="tech-tags">
+              <li>React</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://codingmento.github.io/to-do-list"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.live">Live Demo</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+              <a
+                href="https://github.com/codingmento/to-do-list"
+                target="_blank"
+                rel="noopener"
+                class="project-link secondary"
+                ><span data-i18n="link.code">Code</span>
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="see-more-wrap">
+        <button
+          id="seeMoreBtn"
+          class="btn btn-outline"
+          data-i18n="work.seeMore"
+        >
+          Show More Projects
+        </button>
+      </div>
+
+      <div class="work-subhead">
+        <h3>
+          <span class="pillar-index">02</span>
+          <span data-i18n="work.ux.heading">UI/UX Design</span>
+        </h3>
+      </div>
+
+      <div class="project-grid ux-grid">
+        <article class="project-card">
+          <div class="project-media">
+            <img
+              src="121111.png"
+              alt="Camera product website design in Figma"
+            />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.u1.title">Camera Design</h4>
+              <span class="project-emoji" aria-hidden="true">🎥</span>
+            </div>
+            <p data-i18n="work.u1.desc">
+              A modern camera product website prototype exploring layout,
+              hierarchy, and interaction states.
+            </p>
+            <ul class="tech-tags">
+              <li>Figma</li>
+              <li>UI/UX</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://www.figma.com/proto/DDO7yXUZ7OzUh5wF96mJdT/asmaa?t=Q3duSbpR0ipjehWU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=17-4&starting-point-node-id=17%3A4"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.prototype">View Prototype</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="1211.png" alt="Football sports website design in Figma" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.u2.title">Football Sport</h4>
+              <span class="project-emoji" aria-hidden="true">⚽</span>
+            </div>
+            <p data-i18n="work.u2.desc">
+              An interactive sports website prototype built around bold imagery
+              and clear navigation.
+            </p>
+            <ul class="tech-tags">
+              <li>Figma</li>
+              <li>UI/UX</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://www.figma.com/proto/5hoLT7xIuD48th2UjQZO5s/sport?node-id=1-2&p=f&t=kWcBMlYt0P7OZeN9-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.prototype">View Prototype</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="aa.png" alt="Sports water bottle UI design in Figma" />
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h4 data-i18n="work.u3.title">Sports Water Bottle UI</h4>
+            </div>
+            <p data-i18n="work.u3.desc">
+              A product UI featuring a moving water bottle element, designed for
+              a streamlined, interactive experience.
+            </p>
+            <ul class="tech-tags">
+              <li>Figma</li>
+              <li>UI/UX</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://www.figma.com/proto/b3xrzGwOQBn62QYFW3NaZv/Elevate?node-id=2-15&p=f&t=30VyaDte6R2HDN3W-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A15"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                ><span data-i18n="link.prototype">View Prototype</span>
+                <i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="services.eyebrow">/ services</p>
+        <h2 class="section-title" data-i18n="services.title">
+          How I can help.
+        </h2>
+        <p class="section-sub" data-i18n="services.sub">
+          Whether you need a full website or a focused redesign, here's what I
+          bring to the table.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="bx bx-code-alt"></i>
+          <h3 data-i18n="services.s1.title">Web Development</h3>
+          <p data-i18n="services.s1.desc">
+            Fast, responsive websites built with modern, maintainable HTML, CSS,
+            JavaScript and React.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="bx bx-paint"></i>
+          <h3 data-i18n="services.s2.title">UI/UX Design</h3>
+          <p data-i18n="services.s2.desc">
+            User-friendly, visually considered interfaces designed in Figma
+            before a line of code is written.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="bx bx-devices"></i>
+          <h3 data-i18n="services.s3.title">Responsive Design</h3>
+          <p data-i18n="services.s3.desc">
+            Layouts that hold up cleanly across desktop, tablet, and mobile — no
+            broken breakpoints.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="bx bx-refresh"></i>
+          <h3 data-i18n="services.s4.title">Website Redesign</h3>
+          <p data-i18n="services.s4.desc">
+            Modernizing outdated sites to improve usability, visual credibility,
+            and performance.
+          </p>
+        </div>
+        <div class="service-card">
+          <i class="bx bx-layer"></i>
+          <h3 data-i18n="services.s5.title">Landing Pages</h3>
+          <p data-i18n="services.s5.desc">
+            Focused, high-converting pages built around a single goal — signups,
+            sales, or bookings.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="skills" id="skills">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="skills.eyebrow">/ skills</p>
+        <h2 class="section-title" data-i18n="skills.title">
+          Tools &amp; strengths.
+        </h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skills-block">
+          <h3 data-i18n="skills.technical">Technical</h3>
+          <ul class="tag-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git &amp; GitHub</li>
+            <li>Figma</li>
+            <li data-i18n="skills.responsive">Responsive Design</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+        <div class="skills-block">
+          <h3 data-i18n="skills.professional">Professional</h3>
+          <ul class="tag-list">
+            <li data-i18n="skills.p1">Problem Solving</li>
+            <li data-i18n="skills.p2">Communication</li>
+            <li data-i18n="skills.p3">Time Management</li>
+            <li data-i18n="skills.p4">Attention to Detail</li>
+            <li data-i18n="skills.p5">Adaptability</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE / EDUCATION ============ -->
+    <section class="experience" id="experience">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="edu.eyebrow">/ education</p>
+        <h2 class="section-title" data-i18n="edu.title">Background.</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-year">2023 — 2027</span>
+          <h3 data-i18n="edu.uni.title">
+            Bachelor's in Business Administration
+          </h3>
+          <p data-i18n="edu.uni.desc">
+            Southern New Hampshire University (SNHU) · Expected graduation in
+            2027
+          </p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">2019 — 2023</span>
+          <h3 data-i18n="edu.hs.title">High School Diploma</h3>
+          <p data-i18n="edu.hs.desc">
+            Major in Mathematics and Computer Science · Graduated 2023
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <p class="eyebrow" data-i18n="contact.eyebrow">/ contact</p>
+        <h2 class="section-title" data-i18n="contact.title">
+          Let's build something worth launching.
+        </h2>
+        <p class="section-sub" data-i18n="contact.sub">
+          Have a project in mind, or an open role? I'd love to hear about it.
+        </p>
+
+        <div class="contact-actions">
+          <a href="mailto:asmaa.adass.a@gmail.com" class="btn btn-primary">
+            <i class="bx bx-envelope"></i> asmaa.adass.a@gmail.com
+          </a>
+          <a href="Asmaa-Adass-CV.pdf" class="btn btn-outline" download>
+            <i class="bx bx-download"></i>
+            <span data-i18n="contact.download">Download Resume</span>
+          </a>
+        </div>
+
+        <ul class="contact-socials">
+          <li>
+            <a
+              href="https://www.instagram.com/coding_mento/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/asmaa-adass-a798a435b/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-linkedin"></i> LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/codingmento"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/@asmaa-coding"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a href="#top" class="logo">Asmaa Adass<span>.</span></a>
+        <ul class="footer-list">
+          <li><a href="#work" data-i18n="nav.work">Work</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+        <p class="copyright" data-i18n="footer.copyright">
+          © 2026 Asmaa Adass. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
